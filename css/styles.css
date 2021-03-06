@@ -1,0 +1,285 @@
+html > body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+nav {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+#title {
+  background-color: #ff415e;
+  color: #fff;
+  margin-bottom: 5rem;
+  height: fit-content;
+}
+
+.container {
+  padding: initial 15%;
+}
+
+.hr-nav {
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+div > h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 10%;
+}
+
+nav.navbar {
+  padding: 1rem 0rem 5rem;
+}
+
+a.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+a.nav-link {
+  font-size: 1rem;
+  color: #fff !important;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+button.btn {
+  margin-bottom: 5rem;
+}
+
+img.main-logo {
+  transform: rotate(10deg);
+  margin: 0 7em;
+  position: relative;
+  z-index: 1;
+  width: 55%;
+}
+
+.navbar-toggler.collapsed {
+  filter: contrast(200%);
+}
+
+#features {
+  margin-top: 10%;
+  margin-bottom: 10rem;
+}
+#features > div > div > div > img {
+  margin: 10% 35%;
+  width: 30%;
+}
+
+#testimonials h2 {
+  padding: 5% 20%;
+  color: white;
+  font-weight: 900 !important;
+  font-size: 3rem !important;
+  line-height: 1.5 !important;
+}
+
+h3,
+p {
+  width: 13.5rem;
+  margin: auto;
+  text-align: center;
+}
+
+#testimonials {
+  background-color: #ff415e;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 8%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#testimonials em {
+  font-weight: 500;
+  color: white;
+}
+
+#press {
+  background-color: #ff415e;
+  text-align: center;
+  margin-top: -1px;
+  padding-bottom: 4%;
+}
+
+#press > img {
+  margin: 0 3%;
+  margin-top: 3%;
+  width: 10%;
+}
+
+.caroseul-item {
+  padding: 10% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+#pricing p {
+  margin-top: 1rem !important;
+  padding-bottom: 0;
+}
+
+#pricing p,
+h2 {
+  margin: 0;
+  width: auto;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body button {
+  margin-top: 10%;
+}
+
+.btn1 {
+  position: static;
+  bottom: 54.312px;
+}
+
+#cta h3 {
+  font-size: 250%;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 900 !important;
+  color: #fff;
+  width: 70%;
+}
+
+#cta {
+  background-color: #ff415e;
+  padding-bottom: 1rem !important;
+  margin-bottom: 5rem;
+  padding-top: 8%;
+  text-align: center;
+}
+
+#cta button {
+  margin: 5% 0;
+}
+
+.row {
+  height: 1;
+}
+
+.card-body button {
+  margin-bottom: 3%;
+}
+
+.card-body {
+  height: fit-content !important;
+}
+.card .card-fix {
+  position: relative;
+  top: 39.094px;
+}
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+/*****************************************************************/
+
+@media (max-width: 1028px) {
+  p {
+    font-size: 250% !important;
+    margin-top: 5% !important;
+    width: 100%;
+    text-align: center !important;
+  }
+
+  body h2,
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 300% !important;
+    font-weight: 600;
+    width: 100%;
+    padding-bottom: 2%;
+    text-align: center;
+  }
+
+  body h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 500%;
+    font-weight: 600;
+    text-align: center;
+  }
+  #title {
+    height: fit-content;
+  }
+
+  #features {
+    margin-top: 0;
+  }
+
+  .main-buttons {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-buttons button {
+    display: block;
+    width: 100% !important;
+    font-size: 200%;
+    margin-bottom: 5%;
+  }
+
+  #features img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 5% !important;
+    width: 20% !important;
+  }
+  .navbar-toggler {
+    position: relative;
+    top: 1rem !important;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+
+  .testimonial-image,
+  .carousel-inner em {
+    font-size: 1.5rem;
+    width: 12%;
+    margin-top: 0;
+  }
+
+  #press img {
+    width: 15%;
+  }
+
+  #pricing h2,
+  #pricing h3,
+  #pricing p,
+  #pricing h1 {
+    font-size: 130% !important;
+  }
+  .card-body {
+    height: fit-content !important;
+    padding-bottom: 3rem !important;
+  }
+}
